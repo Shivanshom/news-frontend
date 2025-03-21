@@ -1,4 +1,4 @@
-const API_ENDPOINT = "http://localhost:5000/api/news"; 
+const API_ENDPOINT = "https://news-backend-gold.vercel.app/api/news"; 
 window.addEventListener("load", () => fetchNews("India"));
 
 function reload() {
